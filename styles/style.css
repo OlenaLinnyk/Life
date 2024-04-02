@@ -1,0 +1,55 @@
+body {
+    padding: 20px;
+    background-color: #ffebeb;
+    font-family: 'Nunito';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gridContainer {
+    padding-bottom: 1vh;
+    align-content: center;
+}
+
+table {
+    background-color: #d7d7d7;
+    border-spacing: 0;
+    align-items: center;
+}
+
+td {
+    border: 0.2vh solid #9a9a9a;
+    border-radius: 0.4vh;
+    width: 7vh;
+    height: 4vh;
+}
+
+td.dead {
+    background-color: transparent;
+}
+
+td.live {
+    background-color: #ceffae;
+    border-radius: 1vh;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 100vh;
+    height: 10vh;
+}
+
+button{
+    border-radius: 3vh;
+    border: 0;
+    font-family: 'Nunito';
+    font-size: 4vh;
+    color: #fff6f6;
+    flex: 1;
+    background: #829f71;
+    margin: 1vh 1vh 1vh 1vh;
+}
